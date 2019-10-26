@@ -1,0 +1,26 @@
+﻿Test Case 1 - Google Search shows suggestions for a word
+	1. Go to www.google.com
+	2. Enter at least a letter in the TextBox
+
+	Expected result: A List of suggestions is showed 
+
+Test Case 2 - Google Search using "Google Search" Button
+	1. Go to www.google.com
+	2. Enter at least a letter in the TextBox
+	3. Click on Google Search button
+
+	Expected result: A List of suggestions is showed 					
+
+Test Case 3 - Relevant results are showed when clicking a suggestion
+	1. Go to www.google.com
+	2. Enter word in the TextBox (e.g. specflow)
+	3. Click on a suggestion
+
+	Expected result: The result page is loaded showing the entered word in the headlines
+
+Test Case 4 - Navigate using a link
+
+	1. Execute Test case 3
+	2. Click on a result
+
+	Expected result: a new tab is opened loading the external webpage.
